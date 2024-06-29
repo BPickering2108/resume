@@ -2,7 +2,7 @@ body {
     background-color: rgb(215, 241, 241);
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: clamp(16px, .5vw, 24px); /* Minimum, preferred, and maximum font size */
+    font-size: clamp(12px, 3vw, 18px);
 } 
 h1 {
     color: black;
