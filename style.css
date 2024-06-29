@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(215, 241, 241);
+} 
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+h3 {
+    color: black;
+    text-align: center;
+}
+h4 {
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+    position: relative;
+
+    }
+p {
+    color: black;
+    text-align: center;
+}
+ul {
+    line-height: 1.5em;
+    text-align: center;
+    padding-left: 0;
+}
+ul li {
+    list-style-position: inside;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+section {
+    text-align: left;
+}
+.experience {
+    width: "100%"
+}
