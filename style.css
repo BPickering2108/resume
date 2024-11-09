@@ -4,17 +4,32 @@ body {
     text-align: center;
     font-size: clamp(12px, 3vw, 18px);
 } 
-h1, h2, h3, h4, p {
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+h3 {
     color: black;
     text-align: center;
 }
 h4 {
-    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
     position: relative;
 
     }
+p {
+    color: black;
+    text-align: center;
+}
 ul {
     line-height: 1.7em;
+    text-align: center;
     padding-left: 0;
 }
 ul li {
@@ -26,15 +41,12 @@ ul li {
 .column {
     flex: 50%;
 }
-header, section {
+header {
     text-align: center;
+}
+section {
+    text-align: left;
 }
 .experience {
     width: "100%"
-}
-.contact-info { 
-    display: block; width: 50%; height: 5%; margin: 0 auto; text-align: center;
-}
-.badges img { 
-    width: 5%; height: 5%; margin: 0 5px;
 }
